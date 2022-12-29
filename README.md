@@ -21,10 +21,6 @@ A step-by-step guide to obtain and install mvxConsole:
 
 The latest public version is at: [https://github.com/wdcurry/mvxConsole](https://github.com/wdcurry/mvxConsole)
 
-```
-Instruction to install 
-```
-
 Copy the tar file into the MultiversX scripts folder, assuming it is in your ~ folder (adjust accordingly):
 
 ```
@@ -81,5 +77,3 @@ This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md
 * The tranquil life in San Miguel de Allende, Mex
 * MultiversX, for changing my life!
 * coffee, did i mention coffee?
-
-
