@@ -22,7 +22,7 @@ A step-by-step guide to obtain and install mvxConsole:
 The latest public version is at: [https://github.com/wdcurry/mvxConsole](https://github.com/wdcurry/mvxConsole)
 
 ```
-Instruction to get 
+Instruction to install 
 ```
 
 Copy the tar file into the MultiversX scripts folder, assuming it is in your ~ folder (adjust accordingly):
