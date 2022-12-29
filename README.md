@@ -19,7 +19,7 @@ The lastest version of mvxConsole.vXYZ.tar.gz
 
 A step-by-step guide to obtain and install mvxConsole:
 
-Obtain the latest mvxConsole.vXYZ.gtar.gz:
+The latest public version is at: [https://github.com/wdcurry/mvxConsole](https://github.com/wdcurry/mvxConsole)
 
 ```
 Instruction to get 
