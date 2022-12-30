@@ -1,6 +1,6 @@
 # mvxConsole MultiversX App
 
-MultiversX offers amazing user-experiences, so mvxConsole was created to both augment the standard node operation shell script and to provide a smoother environment for new node operators. It wraps all the calls currently available and adds a few new features to make a MultiversX validator's life even easier!
+The MultiversX blockchain (formerly known as Elrond) and ecosystem offers amazing user-experiences, so mvxConsole was created to both augment the standard validator node operation shell script and to provide a smoother environment for new node operators. It wraps all the calls currently available and adds a few new features to make a MultiversX validator's life even easier!
 
 ## Getting Started
 
@@ -77,3 +77,4 @@ This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md
 * The tranquil life in San Miguel de Allende, Mex
 * MultiversX, for changing my life!
 * coffee, did i mention coffee?
+* Btw, feel free to stake your EGLD with us (ApeStaking.com). Smaller Staking Providers offer you similar ROI AND we are essential to the true decentralization of the most amazing tech in the blockchains space: MultiversX.
