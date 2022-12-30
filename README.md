@@ -24,7 +24,7 @@ The latest public version is at: [https://github.com/wdcurry/mvxConsole](https:/
 Copy the tar file into the MultiversX scripts folder, assuming it is in your ~ folder (adjust accordingly):
 
 ```
-mv ~/mvxConsole.vXYZ.tar.gz ~/elrond-go-scripts/
+mv ~/mvxConsole.v0.7.8.tar.gz ~/elrond-go-scripts/
 ```
 Switch into the scripts folder (assuming your install is standard):
 
