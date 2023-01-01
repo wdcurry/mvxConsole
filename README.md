@@ -2,6 +2,8 @@
 
 The MultiversX blockchain (formerly known as Elrond) and ecosystem offers amazing user-experiences, so mvxConsole was created to both augment the standard validator node operation shell script and to provide a smoother environment for new node operators. It wraps all the calls currently available and adds a few new features to make a MultiversX validator's life even easier!
 
+<img width="1144" alt="mvxConsole(0 7 8)" src="https://user-images.githubusercontent.com/2454749/210174829-cad160b9-511f-4aeb-bc4f-7f51e0d58db8.png">
+
 ## Getting Started
 
 These instructions will get mvxConsole up and running on your existing MultiversX server.  We recommend trying it out on a testnet server first to familiarize yourself with its features. Trust though, it is designed to be as simple as possible!
