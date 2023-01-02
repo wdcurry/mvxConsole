@@ -290,7 +290,9 @@ while  (( $loopApp )); do
                                 tapToContinue "${options[$zeroBasedReply]} finished"
                         fi
                 ;;
-                # hidden options below
+                #
+                #  hidden options below
+                #
                 $optQ)  echo "You chose ${options[$zeroBasedReply]}"
                         echo -e
                         echo -e "${GREEN}--> Quitting ${title}...${NC}"
