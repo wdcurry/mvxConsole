@@ -2,8 +2,6 @@
 
 The MultiversX blockchain (formerly known as Elrond) and ecosystem offers amazing user-experiences, so mvxConsole was created to both augment the standard validator node operation shell script and to provide a smoother environment for new node operators. It wraps all the calls currently available and adds a few new features to make a MultiversX validator's life even easier!
 
-<img width="1144" alt="mvxConsole(0 7 8)" src="https://user-images.githubusercontent.com/2454749/210174829-cad160b9-511f-4aeb-bc4f-7f51e0d58db8.png">
-
 ## Getting Started
 
 These instructions will get mvxConsole up and running on your existing MultiversX server.  We recommend trying it out on a testnet server first to familiarize yourself with its features. Trust though, it is designed to be as simple as possible!
@@ -19,14 +17,16 @@ The lastest version of mvxConsole.vXYZ.tar.gz
 
 ### Installing
 
-A step-by-step guide to obtain and install mvxConsole:
+A step-by-step guide to obtain and install mvxConsole, the latest public version is at::
 
-The latest public version is at: [https://github.com/wdcurry/mvxConsole](https://github.com/wdcurry/mvxConsole)
+
+[https://github.com/wdcurry/mvxConsole](https://github.com/wdcurry/mvxConsole)
+
 
 Copy the tar file into the MultiversX scripts folder, assuming it is in your ~ folder (adjust accordingly):
 
 ```
-mv ~/mvxConsole.v0.7.8.tar.gz ~/elrond-go-scripts/
+mv ~/mvxConsole.vXYZ.tar.gz ~/elrond-go-scripts/
 ```
 Switch into the scripts folder (assuming your install is standard):
 
@@ -62,12 +62,12 @@ A simple test is to fire up mvxConsole and choose to run TermUI, currently optio
 
 - The ability to easily toggle nodes between DEBUG and INFO modes!
 - A concise display of your nodes, their Eligible state, and their running state!
-- and a few more goodies planned!
+- A few more goodies planned!
+- Feel free to send along your ideas!
 
 ## Author
 
 * **drew curry** - "The EGLD Guy" @ [ApeStaking](https://www.ApeStaking.com)
-
 
 ## License
 
@@ -80,3 +80,5 @@ This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md
 * MultiversX, for changing my life!
 * coffee, did i mention coffee?
 * Btw, feel free to stake your EGLD with us (ApeStaking.com). Smaller Staking Providers offer you similar ROI AND we are essential to the true decentralization of the most amazing tech in the blockchains space: MultiversX.
+
+*If mvxConsole has offered you benefit, free free to tip to my maiar herotag: @drewcurry, gracias*.
