@@ -4,8 +4,8 @@
 #                       options (to 1char only).
 # Todo:         Create options to manage entire upgrade for mainnet in one selection
 # Author        Drew Curry, ApeStaking
-# Version       0.7.9
-# Date          dec30-2022
+# Version       0.8.5
+# Date		jan05a-2023
 # Location      MultiversXs main folder
 
 #!/bin/bash
@@ -140,7 +140,7 @@ while  (( $loopApp )); do
                         fi
 
                 ;;
-                $optH)  echo "You chose ${options[$zeroBasedReply]}"
+                $optI)  echo "You chose ${options[$zeroBasedReply]}"
                         currentPrompt="Ok to ${optionsDescs[$zeroBasedReply]}?"
                         yesOrCancel userReply "$currentPrompt"
                         if [[ $userReply  == "Y" ]]; then
@@ -149,7 +149,7 @@ while  (( $loopApp )); do
                         fi
 
                 ;;
-                $optI)  echo "You chose ${options[$zeroBasedReply]}"
+                $optJ)  echo "You chose ${options[$zeroBasedReply]}"
                         currentPrompt="Ok to ${optionsDescs[$zeroBasedReply]}?"
                         yesOrCancel userReply "$currentPrompt"
                         if [[ $userReply  == "Y" ]]; then
@@ -158,7 +158,7 @@ while  (( $loopApp )); do
                         fi
 
                 ;;
-                $optJ)  echo "You chose ${options[$zeroBasedReply]}"
+                $optK)  echo "You chose ${options[$zeroBasedReply]}"
                         currentPrompt="Ok to ${optionsDescs[$zeroBasedReply]}?"
                         yesOrCancel userReply "$currentPrompt"
                         if [[ $userReply  == "Y" ]]; then
@@ -167,7 +167,7 @@ while  (( $loopApp )); do
                         fi
 
                 ;;
-                $optK)  echo "You chose ${options[$zeroBasedReply]}"
+                $optL)  echo "You chose ${options[$zeroBasedReply]}"
                         currentPrompt="Ok to ${optionsDescs[$zeroBasedReply]}?"
                         yesOrCancel userReply "$currentPrompt"
                         if [[ $userReply  == "Y" ]]; then
@@ -176,7 +176,7 @@ while  (( $loopApp )); do
                         fi
 
                 ;;
-                $optL)  echo "You chose ${options[$zeroBasedReply]}"
+                $optM)  echo "You chose ${options[$zeroBasedReply]}"
                         currentPrompt="Ok to ${optionsDescs[$zeroBasedReply]}?"
                         yesOrCancel userReply "$currentPrompt"
                         if [[ $userReply  == "Y" ]]; then
@@ -185,7 +185,7 @@ while  (( $loopApp )); do
                         fi
 
                 ;;
-                $optM)  echo "You chose ${options[$zeroBasedReply]}"
+                $optN)  echo "You chose ${options[$zeroBasedReply]}"
                         currentPrompt="Ok to ${optionsDescs[$zeroBasedReply]}?"
                         yesOrCancel userReply "$currentPrompt"
                         if [[ $userReply  == "Y" ]]; then
@@ -194,7 +194,7 @@ while  (( $loopApp )); do
                         fi
 
                 ;;
-                $optN)  echo "You chose ${options[$zeroBasedReply]}"
+                $optO)  echo "You chose ${options[$zeroBasedReply]}"
 			# run Termui
                         # check node count, if >1 then create options message to get user to select which node
                         # standard node-0 runs on 8080, preset but adjust if needed 
@@ -245,7 +245,7 @@ while  (( $loopApp )); do
                         esac
 
                 ;;
-                $optO)  echo "You chose ${options[$zeroBasedReply]}"
+                $optP)  echo "You chose ${options[$zeroBasedReply]}"
                         # a subtle cleaner UX, move curser 2 cols left to cover input
                         # todo: the menu now moves one line down, when it originally was not.
                         #       which means this is not needed.
@@ -260,7 +260,7 @@ while  (( $loopApp )); do
                         fi
 
                 ;;
-                $optP)  echo "You chose ${options[$zeroBasedReply]}"
+                $optR)  echo "You chose ${options[$zeroBasedReply]}"
                         # a subtle cleaner UX, move curser 2 cols left to cover input
                         tput cub 2
 
@@ -281,7 +281,7 @@ while  (( $loopApp )); do
 
 
                 ;;
-                $optR)  echo "You chose ${options[$zeroBasedReply]}"
+                $optS)  echo "You chose ${options[$zeroBasedReply]}"
                         currentPrompt="Ok to ${optionsDescs[$zeroBasedReply]}?"
                         yesOrCancel userReply "$currentPrompt"
                         if [[ $userReply  == "Y" ]]; then
@@ -305,6 +305,9 @@ while  (( $loopApp )); do
                         echo -e
                         break
                 ;;
+                $optH)  ShowMvxHelp
+                ;;
+                
                 *)       echo "Invalid option"
 
                 ;;
