@@ -76,6 +76,8 @@ This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md
 * coffee, did i mention coffee?
 * Btw, feel free to stake your EGLD with us (ApeStaking.com). Smaller Staking Providers offer you similar ROI AND we are essential to the true decentralization of the most amazing tech in the blockchains space: MultiversX.
 
+Use at your own risk, ApeStaking bears no responsbility with your use of mvxConsole, but trust we use it on our nodes, in any state: Observer, Waiting AND Eligible, gracias.
+
 Last updated jan05-2023
 
 *If mvxConsole has offered you benefit, free free to tip to my maiar herotag: @drewcurry, gracias*.
