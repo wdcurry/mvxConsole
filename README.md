@@ -1,5 +1,7 @@
 # mvxConsole MultiversX App
 
+mvxConsole has been replaced with mxConsole: https://github.com/wdcurry/mxConsole.  If you require a smooth experience using the older multiversX scripts found in ~/elrond-go-scripts/ then this project (mvxConsole) is for you.
+
 The MultiversX blockchain (formerly known as Elrond) and ecosystem offers amazing user-experiences, so mvxConsole was created to both augment the standard validator node operation shell script and to provide a smoother environment for new node operators. It wraps all the calls currently available and adds a few new features to make a MultiversX validator's life even easier!
 
 ## Getting Started
